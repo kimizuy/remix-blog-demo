@@ -6,11 +6,9 @@
     "build": "remix build",
     "dev": "node -r dotenv/config node_modules/.bin/remix dev",
     "postinstall": "remix setup node",
-    "netlifydev": "cross-env NODE_ENV=development netlify dev",
     "start": "remix-serve build"
   },
   "dependencies": {
-    "@remix-run/netlify": "^1.1.3",
     "@remix-run/react": "^1.1.3",
     "@remix-run/serve": "^1.1.3",
     "@remix-run/vercel": "^1.1.3",
